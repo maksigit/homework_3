@@ -1,8 +1,6 @@
 <?php
 
-use vendor\user;
-use vendor\car;
-use vendor\order;
+use Model;
 
 $someCar = new Car();
 $someCar->setCarBrand('Volvo');

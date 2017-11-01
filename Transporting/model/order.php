@@ -1,5 +1,7 @@
 <?php
 
+namespace  Model;
+
 class Order
 {
 	private $id;
@@ -7,6 +9,15 @@ class Order
 	private $driver;
 	private $client;
 
+	public function getId()
+	{
+		return $this->id;
+	}
+
+	public function setId($id)
+	{
+		return $this->id = $id;
+	}
 	public function getDate()
 	{
 		return $this->date;
